@@ -32,4 +32,4 @@ Pull requests are only accepted for localization updates. All other submissions 
 - Consider updating the [localization system] on WoW Ace since that's where all translations are pulled from.
 
 [issue tracker]: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
-[localization system]: https://www.wowace.com/projects/masque/localization (Translate on WoW Ace)
+[localization system]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
