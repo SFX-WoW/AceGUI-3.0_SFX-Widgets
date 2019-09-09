@@ -1,11 +1,18 @@
 --[[
 
-	Copyright (c) StormFX 2018-2019. All rights reserved.
-	See https://github.com/StormFX/AceGUI-3.0_SFX-Widgets for more information.
+	This file is part of 'AceGUI-3.0: SFX Widgets', an add-on for World of Warcraft. For license information,
+	please see the included License.txt file or visit https://github.com/StormFX/AceGUI-3.0_SFX-Widgets.
+
+	* File...: SFX-Info.lua
+	* Author.: StormFX
 
 ]]
 
 -- GLOBALS: LibStub, UIParent
+
+----------------------------------------
+-- Locals
+---
 
 local Type, Version = "SFX-Info", 1
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
@@ -20,7 +27,7 @@ if not AceGUI or (AceGUI:GetWidgetVersion(Type) or 0) >= Version then return end
 local max = math.max
 
 ----------------------------------------
--- WoW
+-- WoW API
 ---
 
 local CreateFrame = CreateFrame
@@ -48,11 +55,9 @@ do
 	local function Widget_OnAcquire(self)
 		-- Default to disabled.
 		self:SetDisabled(true)
-
 		self:SetLabel()
 		self:SetColon()
 		self:SetText()
-
 		self:SetFullWidth(true)
 	end
 
@@ -91,6 +96,7 @@ do
 	local function Widget_SetLabel(self, Text)
 		Text = Text or ""
 		self.Label:SetText(Text)
+
 		if Text == "" then
 			self:SetColon(Text)
 		end
