@@ -1,0 +1,12 @@
+# Git
+.gitattributes export-ignore
+.gitignore export-ignore
+
+# Travis
+.travis.yml export-ignore
+
+# Curse
+.pkgmeta export-ignore
+
+# Docs
+.docs export-ignore
