@@ -16,3 +16,4 @@ ignore:
 
 tools-used:
   - libstub
+  - ace3
