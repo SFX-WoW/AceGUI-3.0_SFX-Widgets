@@ -1,7 +1,7 @@
 ## Interface: 80200
 ## Title: AceGUI-3.0: SFX Widgets
 
-## Notes: Adds additional widgets to AceGUI-3.0 and AceConfigDialog-3.0.
+## Notes: Adds custom widgets to AceGUI-3.0 and AceConfigDialog-3.0.
 
 ## Version: @project-version@
 ## Author: StormFX
@@ -10,6 +10,6 @@
 ## X-Category: Library
 ## X-Website: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets
 ## X-Credits: The Ace3 Team
-## X-Curse-Project-ID:
+## X-Curse-Project-ID: 340803
 
 Widgets\Widgets.xml
