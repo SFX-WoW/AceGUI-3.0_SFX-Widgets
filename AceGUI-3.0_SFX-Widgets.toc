@@ -10,7 +10,6 @@
 ## X-Category: Library
 ## X-Website: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets
 ## X-Credits: The Ace3 Team
-## X-Curse-Project-ID: 13592
-## X-WoWI-ID: 12097
+## X-Curse-Project-ID:
 
 Widgets\Widgets.xml
