@@ -1,6 +1,6 @@
 ## Localization
 
-Due to the scope of _World of Warcraft_ and its gaming community, one of the most important ways one can contribute to an add-on is through translations. The recommended way of contributing in this way is via the [localization system] on WoW Ace, which provides a web interface to simplify the process.
+Due to the scope of _World of Warcraft_ and its gaming community, one of the most important ways one can contribute to an add-on is through translations. The recommended way of contributing in this way is by using the [localization system] on WoW Ace, which provides a web interface to simplify the process.
 
 ## Bug Reports
 
@@ -14,13 +14,7 @@ Explain the problem and include as much information as possible. When creating t
 - Specify the version of the add-on and any dependencies you have installed.
 - Describe, in detail, the steps necessary to reproduce the problem.
 - Include any additional information or screenshots that may be relevant to addressing the issue.
-- When posting error messages, enclose them in code blocks using back-ticks:
-
-> ````txt
-> ```
-> <error message>
-> ```
-> ````
+- When posting error messages, please enclose them in code blocks.
 
 ## Pull Requests
 
