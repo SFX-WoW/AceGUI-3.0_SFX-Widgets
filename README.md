@@ -6,7 +6,7 @@
 
 ## About
 
-_AceGUI-3.0: SFX Widgets_ is an add-on library for [World of Warcraft] that utilizes [AceGUI-3.0][Ace3] to create custom UI elements for [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
+_AceGUI-3.0: SFX Widgets_ is an add-on library for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
 
 ## Embedding
 
@@ -42,11 +42,11 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
 [GitHub]: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets (Download from GitHub)
-[WoW Ace]: https://www.wowace.com/projects/acegui-3-0-sfx-widgets (Download from WoW Ace)
-[CurseForge]: https://www.curseforge.com/wow/addons/acegui-3-0-sfx-widgets (Download from CurseForge)
+[WoW Ace]: https://www.wowace.com/projects/sfx-widgets (Download from WoW Ace)
+[CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (Download from CurseForge)
 
 [Issue Tracker]: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
-[Localization System]: https://www.wowace.com/projects/acegui-3-0-sfx-widgets/localization (Translate on WoW Ace)
+[Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
 [Contribute Directly]: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets (Translate on GitHub)
 
 [Travis]: https://travis-ci.org/StormFX/AceGUI-3.0_SFX-Widgets (Latest Build)
