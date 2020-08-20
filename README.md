@@ -56,16 +56,14 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 [WoW Ace]: https://www.wowace.com/projects/sfx-widgets (Download from WoW Ace)
 [CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (Download from CurseForge)
 
-[Issue Tracker]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
-[Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
-[Contribute Directly]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (Translate on GitHub)
-
 [Latest]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/releases (Latest Release)
+[Issue Tracker]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
+[Contribute Directly]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (Translate on GitHub)
+[Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
+
 [Discord]: https://discord.gg/DDVqkd6 (Discord)
-[Patreon]: https://www.patreon.com/stormfx (Donate via Patreon)
 
 [Images]: #
 
 [Badge-Latest]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?label=Latest&style=flat-square
-[Badge-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?style=flat-square
-[Badge-Patreon]: https://img.shields.io/badge/Patreon-Donate-f96854?style=flat-square
+[Badge-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?logo=discord&style=flat-square
