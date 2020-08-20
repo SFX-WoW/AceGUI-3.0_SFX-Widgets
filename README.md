@@ -1,7 +1,5 @@
 [![Latest][Badge-Latest]][Latest]
 [![Discord][Badge-Discord]][Discord]
-[![Patreon][Badge-Patreon]][Patreon]
-[![PayPal][Badge-PayPal]][PayPal]
 
 ##
 
