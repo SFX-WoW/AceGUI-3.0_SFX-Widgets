@@ -1,3 +1,4 @@
-## 0.1
+## 1.0-80300
 
-- Initial release.
+- Fixed an issue with the _LibStub_ embed.
+- Updated the ToC to `80300`.
