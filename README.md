@@ -63,5 +63,5 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 
 [Images]: #
 
-[Badge-Latest]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?label=Latest&style=flat-square
-[Badge-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?logo=discord&style=flat-square
+[Badge-Latest]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?logo=github&logoColor=fff&label=Latest&style=flat-square
+[Badge-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?logo=discord&logoColor=fff&style=flat-square
