@@ -1,19 +1,19 @@
 package-as: AceGUI-3.0_SFX-Widgets
 
-manual-changelog:
-  filename: CHANGELOG.md
-  markup-type: markdown
+embedded-libraries:
+  - libstub
 
-enable-nolib-creation: no
+required-dependencies:
+  - ace3
 
 ignore:
   - .docs\
+  - .github\
   - .gitattributes
   - .gitignore
   - .luacheckrc
-  - .travis.yml
-  - CONTRIBUTING.md
+  - .pkgmeta
 
-tools-used:
-  - libstub
-  - ace3
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
