@@ -5,11 +5,12 @@
 
 ## Version: @project-version@
 ## Author: StormFX
-## OptionalDeps: LibStub, Ace3
+## OptionalDeps: Ace3
 
 ## X-Category: Library
 ## X-Website: https://github.com/StormFX/AceGUI-3.0_SFX-Widgets
 ## X-Credits: The Ace3 Team
 ## X-Curse-Project-ID: 340803
 
+LibStub\LibStub.lua
 Widgets\Widgets.xml
