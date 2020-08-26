@@ -11,6 +11,7 @@ std = 'lua51'
 exclude_files = {
 	".luacheckrc",
 	".docs",
+	".github",
 	"LibStub",
 }
 
@@ -31,6 +32,7 @@ read_globals = {
 	-- WoW Lua
 
 	-- WoW API
+	"BackdropTemplateMixin",
 	"CreateFrame",
 	"GameTooltip",
 	"GetLocale",
