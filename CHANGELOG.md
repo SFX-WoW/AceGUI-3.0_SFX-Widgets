@@ -1,4 +1,6 @@
-## 1.0-80300
+## 1.0
 
-- Fixed an issue with the _LibStub_ embed.
-- Updated the ToC to `80300`.
+- Added `BackdropTemplate` support.
+- Fixed the `LibStub` embed.
+- Updated the ToC for _Classic_ to `11305`.
+- Updated the ToC for _Retail_ to `80300`.
