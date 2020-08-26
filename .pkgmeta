@@ -13,9 +13,9 @@ ignore:
   - .gitignore
   - .luacheckrc
   - .pkgmeta
-  - CHANGELOG.md.
-  - LICENSE.md.
-  - README.md.
+  - CHANGELOG.md
+  - LICENSE.md
+  - README.md
 
 manual-changelog:
   filename: CHANGELOG.md
