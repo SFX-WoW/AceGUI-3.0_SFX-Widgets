@@ -22,7 +22,7 @@ This widget adds a two-column row with a label on the left and _selectable_ text
 
 > _**Tip:** Clicking either image will display an animate GIF showing the widgets in action._
 
-For more information about the widgets and their usage, please visit the [wiki](wiki).
+For more information about the widgets and their usage, please visit the [wiki](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki).
 
 ## Installation
 
