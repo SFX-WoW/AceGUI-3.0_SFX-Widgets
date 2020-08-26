@@ -1,14 +1,14 @@
 --[[
 
 	This file is part of 'AceGUI-3.0: SFX Widgets', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file or visit https://github.com/StormFX/AceGUI-3.0_SFX-Widgets.
+	please see the included License.txt file or visit https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets.
 
 	* File...: SFX-Info-URL.lua
 	* Author.: StormFX
 
 ]]
 
--- GLOBALS: GameTooltip, GetLocale, LibStub, UIParent
+-- GLOBALS: BackdropTemplateMixin, CreateFrame, GameTooltip, GetLocale, LibStub, UIParent
 
 ----------------------------------------
 -- Locals
@@ -30,7 +30,7 @@ local max = math.max
 -- WoW API
 ---
 
-local CreateFrame = CreateFrame
+local CreateFrame, BackdropTemplateMixin = CreateFrame, BackdropTemplateMixin
 
 ----------------------------------------
 -- Locales
@@ -205,7 +205,7 @@ do
 		else
 			-- Set up the EditBox.
 			if not EditBox then
-				EditBox = CreateFrame("EditBox", "AceGUI-3.0_SFX-InfoRow_EditBox", self.frame)
+				EditBox = CreateFrame("EditBox", "AceGUI-3.0_SFX-InfoRow_EditBox", self.frame, BackdropTemplateMixin and "BackdropTemplate")
 				EditBox:SetAutoFocus(true)
 				EditBox:SetFontObject("GameFontHighlight")
 				EditBox:SetJustifyH("LEFT")
