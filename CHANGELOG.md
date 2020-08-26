@@ -1,4 +1,4 @@
-## 1.0
+## 1.0.0
 
 - Added `BackdropTemplate` support.
 - Fixed the `LibStub` embed.
