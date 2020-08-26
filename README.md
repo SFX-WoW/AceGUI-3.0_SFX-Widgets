@@ -1,5 +1,6 @@
-[![Latest][Badge-Latest]][Latest]
-[![Discord][Badge-Discord]][Discord]
+[![Build][SVG-Build]][Build]
+[![Latest][SVG-Latest]][Latest]
+[![Discord][SVG-Discord]][Discord]
 
 ##
 
@@ -54,6 +55,7 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 [WoW Ace]: https://www.wowace.com/projects/sfx-widgets (Download from WoW Ace)
 [CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (Download from CurseForge)
 
+[Build]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/actions?query=workflow%3ARelease (Build Status)
 [Latest]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/releases (Latest Release)
 [Issue Tracker]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
 [Contribute Directly]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (Translate on GitHub)
@@ -63,5 +65,6 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 
 [Images]: #
 
-[Badge-Latest]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?logo=github&logoColor=fff&label=Latest&style=flat-square
-[Badge-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?logo=discord&logoColor=fff&style=flat-square
+[SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/Release?label=Build&logo=github&logoColor=fff&style=flat-square
+[SVG-Latest]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?logo=github&logoColor=fff&label=Latest&style=flat-square
+[SVG-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?logo=discord&logoColor=fff&style=flat-square
