@@ -4,7 +4,7 @@
 
 ## About
 
-_**AceGUI-3.0: SFX Widgets**_ is an add-on library for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
+**AceGUI-3.0: SFX Widgets** is an add-on library for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
 
 ### Widgets
 
@@ -20,19 +20,27 @@ This widget adds a two-column row with a label on the left and _selectable_ text
 
 [![SFX-Info](.docs/img/sfx-info-url.png)][GIF]
 
-> _**Tip:** Clicking either image will display an animate GIF showing the widgets in action._
-
-For more information about the widgets and their usage, please visit the [wiki](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki).
+For a better visual of the widgets in action, click on one of the images above. For more information about the widgets and their usage, please visit the [wiki](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki).
 
 ## Installation
 
 ### Add-On Authors
 
-To utilize this library, set up an external pointing to `https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets.git` and reference the library in your `<Addon>.toc` or `<Embeds>.xml` file:
+To utilize this library, set up an external in your `.pkgmeta`:
+
+```yaml
+Libs/AceGUI-3.0_SFX-Widgets:
+  url: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets.git
+  tag: latest
+```
+
+Reference the library in your `<Addon>.toc` or `<Embeds>.xml` file:
 
 #### ToC
 
-`Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml`
+```txt
+Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml
+```
 
 #### XML
 
