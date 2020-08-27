@@ -56,11 +56,9 @@ Alternatively, you can download the latest release and include it with your add-
 
 There really isn't a need for the average user to install this library on their own, as any add-on that utilizes its features will include it. However, for those who prefer to install stand-alone libraries, a `.toc` file as been included.
 
-1. Download the package from one of the following sites:
-    - [GitHub]
-    - [WoW Ace]
-    - [CurseForge]
-    - [WoW Interface]
+#### Manual Installation
+
+1. Download the [latest package][Release].
 2. Extract the package to the appropriate directory:
     - Retail: `World of Warcraft\_retail_\Interface\AddOns`
     - Classic: `World of Warcraft\_classic_\Interface\AddOns`
@@ -76,6 +74,10 @@ For bug reports and suggestions, please use the [issue tracker] on GitHub.
 ## Localization
 
 To help translate this add-on, please use the [localization system] on WoW Ace or [contribute directly] on GitHub.
+
+<br />
+
+[WoW Ace] | [CurseForge] | [WoW Interface]
 
 [Links]: #
 
