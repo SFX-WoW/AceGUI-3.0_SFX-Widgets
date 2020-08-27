@@ -7,8 +7,8 @@ required-dependencies:
   - ace3
 
 ignore:
-  - .docs/
-  - .github/
+  - .docs
+  - .github
   - .gitattributes
   - .gitignore
   - .luacheckrc
