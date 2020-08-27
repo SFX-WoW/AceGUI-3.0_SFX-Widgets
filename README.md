@@ -50,7 +50,7 @@ Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml
 
 ```xml
 <!--@no-lib-strip@-->
-<Include file="AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml"/>
+<Include file="Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml"/>
 <!--@end-no-lib-strip@-->
 ```
 
