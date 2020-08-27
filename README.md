@@ -8,19 +8,23 @@
 
 ### Widgets
 
-#### SFX-Info
+_SFX Widgets_ currently includes the following widgets:
 
-This widget adds a two-column row with a label on the left and text on the right, as in the image below:
+| Widget | Description |
+| --- | --- |
+| `SFX-Info` | Adds a two-column row with a label on the left and text on the right. |
+| `SFX-Info-URL` | Adds a two-column row with a label on the left and _selectable_ text on the right. |
 
-[![SFX-Info](.docs/img/sfx-info.png)][GIF]
+For more information about the widgets and their usage, please visit the [wiki](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki).
 
-#### SFX-Info-URL
+## Requirements
 
-This widget adds a two-column row with a label on the left and _selectable_ text on the right, as in the image below:
+This add-on requires third-party libraries.
 
-[![SFX-Info](.docs/img/sfx-info-url.png)][GIF]
-
-For a better visual of the widgets in action, click on one of the images above. For more information about the widgets and their usage, please visit the [wiki](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki).
+- [LibStub](https://www.wowace.com/projects/libstub "LibStub Homepage") (_Included_)
+- [Ace-3.0][Ace3]
+  - [AceConfigDialog-3.0][Ace3] (_Optional_)
+  - [AceGUI-3.0][Ace3]
 
 ## Installation
 
@@ -50,7 +54,7 @@ Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml
 <!--@end-no-lib-strip@-->
 ```
 
-Alternatively, you can download the latest release and include it with your add-on.
+Alternatively, you can download the [latest release][Release] and embed it with your add-on.
 
 ### Users
 
@@ -81,7 +85,7 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 
 [Links]: #
 
-[Ace3]: https://www.wowace.com/projects/ace3 (Ace3 Homepage)
+[Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Homepage)
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
 [GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (Download from GitHub)
@@ -98,8 +102,6 @@ To help translate this add-on, please use the [localization system] on WoW Ace o
 [Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
 
 [Images]: #
-
-[GIF]: .docs/img/sfx-widgets.gif
 
 [SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/Release?label=Build&logo=github&logoColor=fff&style=flat-square
 [SVG-Release]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?logo=github&logoColor=fff&label=Release&style=flat-square
