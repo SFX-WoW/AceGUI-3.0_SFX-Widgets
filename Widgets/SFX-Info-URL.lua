@@ -46,7 +46,7 @@ local L = {
 	["Click to select this text."] = "Click to select this text."
 }
 
---local Locale = GetLocale()
+local Locale = GetLocale()
 --if Locale == "deDE" then
 --elseif Locale == "esMX" or Locale == "esES" then
 --elseif Locale == "frFR" then
@@ -55,8 +55,15 @@ local L = {
 --elseif Locale == "ptBR" then
 --elseif Locale == "ruRU" then
 --elseif Locale == "zhCN" then
---elseif Locale == "zhTW" then
---end
+if Locale == "zhTW" then
+	L["Click to select this text."] = "點擊來選擇此文字。"
+	L["Copy"] = "複製"
+	L["CTRL+C"] = "CTRL+C"
+	L["ESC"] = "離開"
+	L["Press %s to cancel."] = "按％s取消。"
+	L["Press %s to copy."] = "按％s複製。"
+	L["Select"] = "選擇"
+end
 
 ----------------------------------------
 -- Strings
