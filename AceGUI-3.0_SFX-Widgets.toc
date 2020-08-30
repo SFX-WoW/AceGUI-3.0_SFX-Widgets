@@ -19,4 +19,4 @@
 ## X-WoWI-ID: 25658
 
 LibStub\LibStub.lua
-Widgets\Widgets.xml
+AceGUI-3.0_SFX-Widgets.xml
