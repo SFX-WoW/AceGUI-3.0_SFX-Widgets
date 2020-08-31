@@ -1,6 +1,3 @@
-# Docs
-.docs export-ignore
-
 # Git
 .gitattributes export-ignore
 .gitignore export-ignore
