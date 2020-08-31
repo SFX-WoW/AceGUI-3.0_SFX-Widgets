@@ -7,7 +7,6 @@ required-dependencies:
   - ace3
 
 ignore:
-  - .docs
   - .github
   - .gitattributes
   - .gitignore
@@ -20,3 +19,5 @@ ignore:
 manual-changelog:
   filename: CHANGELOG.md
   markup-type: markdown
+
+wowi-archive-previous: no
