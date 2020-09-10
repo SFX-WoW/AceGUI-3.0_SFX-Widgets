@@ -1,21 +1,16 @@
 [![Build][SVG-Build]][Build]
-[![Release][SVG-Release]][Release]
 [![Discord][SVG-Discord]][Discord]
 
 ## About
 
-**AceGUI-3.0: SFX Widgets** is an add-on library for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
+**AceGUI-3.0: SFX Widgets** is an library add-on for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
 
-### Widgets
+## Features
 
-_SFX Widgets_ currently includes the following widgets:
+This library adds the following widgets.
 
-| Widget | Description |
-| --- | --- |
-| `SFX-Info` | Adds a two-column row with a label on the left and text on the right. |
-| `SFX-Info-URL` | Adds a two-column row with a label on the left and _selectable_ text on the right. |
-
-For more information about the widgets and their usage, please visit the [wiki](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki).
+- [SFX-Info](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Info "View Wiki Page") - A two-column row with a label on the left and text on the right.
+- [SFX-Info-URL](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Info-URL "View Wiki Page") - A two-column row with a label on the left and selectable text on the right.
 
 ## Requirements
 
@@ -28,81 +23,56 @@ This add-on requires third-party libraries.
 
 ## Installation
 
-### Add-On Authors
-
-To utilize this library, set up an external in your `.pkgmeta`:
-
-```yaml
-Libs/AceGUI-3.0_SFX-Widgets:
-  url: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets.git
-  tag: latest
-```
-
-Reference the library in your `<Addon>.toc` or `<Embeds>.xml` file:
-
-#### ToC
-
-```txt
-Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml
-```
-
-#### XML
-
-```xml
-<!--@no-lib-strip@-->
-<Include file="Libs\AceGUI-3.0_SFX-Widgets\AceGUI-3.0_SFX-Widgets.xml"/>
-<!--@end-no-lib-strip@-->
-```
-
-Alternatively, you can download the [latest release][Release] and embed it with your add-on.
-
-### Users
-
-There really isn't a need for the average user to install this library on their own, as any add-on that utilizes its features will include it. However, for those who prefer to install stand-alone libraries, a `.toc` file as been included.
-
-#### Manual Installation
-
-1. Download the [latest package][Release].
-2. Extract the package to the appropriate directory:
-    - Retail: `World of Warcraft\_retail_\Interface\AddOns`
-    - Classic: `World of Warcraft\_classic_\Interface\AddOns`
+Detailed instructions for installing and using this library can be found on the [project wiki][Wiki].
 
 ## Credits
 
-- The [Ace-3.0 Development Team][Ace3].
+The [Ace-3.0 Development Team][Ace3].
 
 ## Feedback
 
-For bug reports and suggestions, please use the [issue tracker] on GitHub.
+For bug reports and suggestions, use the [issue tracker]. Direct any questions or comments to [Discord].
 
 ## Localization
 
-To help translate this add-on, please use the [localization system] on WoW Ace or [contribute directly] on GitHub.
+To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
 
-<br />
+## Support
 
-[WoW Ace] | [CurseForge] | [WoW Interface]
+If you'd like to support the development of this and other projects, you can use one of the options below.
+
+- [Donate via PayPal][Donate]
+- [Sponsor on GitHub][Sponsor]
+
+## Links
+
+- [CurseForge][CurseForge]
+- [WoW Ace][WoW Ace]
+- [WoW Interface]
+
+<!-- Links -->
 
 [Links]: #
 
-[Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Homepage)
+[Build]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/actions?query=workflow%3ARelease (Build Status)
+
+[Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Project Page)
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
-[GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (Download from GitHub)
-[WoW Ace]: https://www.wowace.com/projects/sfx-widgets (Download from WoW Ace)
-[CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (Download from CurseForge)
-[WoW Interface]: https://www.wowinterface.com/downloads/info25658 (Download from WoW Interface)
-
-[Build]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/actions?query=workflow%3ARelease (Build Status)
-[Release]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/releases (Latest Release)
-[Discord]: https://discord.gg/DDVqkd6 (Discord)
+[Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
+[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
+[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 
 [Issue Tracker]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
-[Contribute Directly]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (Translate on GitHub)
 [Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
+[Wiki]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki (View the Wiki)
+
+[CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (View on CurseForge)
+[GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (View on GitHub)
+[WoW Ace]: https://www.wowace.com/projects/sfx-widgets (View on WoW Ace)
+[WoW Interface]: https://www.wowinterface.com/downloads/info25658 (View on WoW Interface)
 
 [Images]: #
 
 [SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/Release?label=Build&logo=github&logoColor=fff&style=flat-square
-[SVG-Release]: https://img.shields.io/github/v/release/SFX-WoW/AceGUI-3.0_SFX-Widgets?logo=github&logoColor=fff&label=Release&style=flat-square
-[SVG-Discord]: https://img.shields.io/badge/Discord-StormFX-7289da?logo=discord&logoColor=fff&style=flat-square
+[SVG-Discord]: https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=fff&style=flat-square
