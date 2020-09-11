@@ -11,6 +11,7 @@ ignore:
   - .gitattributes
   - .gitignore
   - .luacheckrc
+  - .pkgmeta
   - CHANGELOG.md
   - LICENSE.txt
   - README.md
