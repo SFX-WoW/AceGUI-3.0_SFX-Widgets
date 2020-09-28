@@ -50,22 +50,20 @@ If you'd like to support the development of this and other projects, you can use
 - [WoW Ace][WoW Ace]
 - [WoW Interface]
 
-<!-- Links -->
-
 [Links]: #
 
 [Build]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/actions?query=workflow%3ARelease (Build Status)
+[Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
 
 [Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Project Page)
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
-[Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
-[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
-[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
-
 [Issue Tracker]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
 [Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
 [Wiki]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki (View the Wiki)
+
+[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
+[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 
 [CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (View on CurseForge)
 [GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (View on GitHub)
