@@ -1,4 +1,4 @@
-## 1.0.1
+## 1.0.2
 
-- Updated the directory structure to the common library format.
-- Updated zhTW. (BNS333)
+- Fixed the dependencies.
+- Updated ruRU. (Doomstep_)
