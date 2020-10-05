@@ -3,18 +3,18 @@
 [![Sponsor][SVG-Sponsor]][Sponsor]
 [![PayPal][SVG-PayPal]][PayPal]
 
-## About
+## [About][Top]
 
 **AceGUI-3.0: SFX Widgets** is an library add-on for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
 
-## Features
+## [Features][Top]
 
 This library adds the following widgets.
 
 - [SFX-Info](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Info "View Wiki Page") - A two-column row with a label on the left and text on the right.
 - [SFX-Info-URL](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Info-URL "View Wiki Page") - A two-column row with a label on the left and selectable text on the right.
 
-## Requirements
+## [Requirements][Top]
 
 This add-on requires third-party libraries.
 
@@ -23,23 +23,23 @@ This add-on requires third-party libraries.
   - [AceConfigDialog-3.0][Ace3] (_Optional_)
   - [AceGUI-3.0][Ace3]
 
-## Installation
+## [Installation][Top]
 
 Detailed instructions for installing and using this library can be found on the [project wiki][Wiki].
 
-## Credits
+## [Credits][Top]
 
 The [Ace-3.0 Development Team][Ace3].
 
-## Feedback
+## [Feedback][Top]
 
 For bug reports and suggestions, use the [issue tracker]. Direct any questions or comments to [Discord].
 
-## Localization
+## [Localization][Top]
 
 To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
 
-## Links
+## [Links][Top]
 
 - [CurseForge][CurseForge]
 - [WoW Ace][WoW Ace]
@@ -51,6 +51,8 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 [Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
 [Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 [PayPal]: https://www.paypal.me/stormfxi (Donate via PayPal)
+
+[Top]: #Top (Top of the Page)
 
 [Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Project Page)
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
