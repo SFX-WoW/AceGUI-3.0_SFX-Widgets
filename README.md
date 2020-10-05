@@ -1,5 +1,7 @@
 [![Build][SVG-Build]][Build]
 [![Discord][SVG-Discord]][Discord]
+[![Sponsor][SVG-Sponsor]][Sponsor]
+[![PayPal][SVG-PayPal]][PayPal]
 
 ## About
 
@@ -37,13 +39,6 @@ For bug reports and suggestions, use the [issue tracker]. Direct any questions o
 
 To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
 
-## Support
-
-If you'd like to support the development of this and other projects, you can use one of the options below.
-
-- [Donate via PayPal][Donate]
-- [Sponsor on GitHub][Sponsor]
-
 ## Links
 
 - [CurseForge][CurseForge]
@@ -54,6 +49,8 @@ If you'd like to support the development of this and other projects, you can use
 
 [Build]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/actions?query=workflow%3ARelease (Build Status)
 [Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
+[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
+[PayPal]: https://www.paypal.me/stormfxi (Donate via PayPal)
 
 [Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Project Page)
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
@@ -62,11 +59,8 @@ If you'd like to support the development of this and other projects, you can use
 [Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
 [Wiki]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki (View the Wiki)
 
-[Donate]: https://www.paypal.me/stormfxi (Donate via PayPal)
-[Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
-
-[CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (View on CurseForge)
 [GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (View on GitHub)
+[CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (View on CurseForge)
 [WoW Ace]: https://www.wowace.com/projects/sfx-widgets (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info25658 (View on WoW Interface)
 
@@ -74,3 +68,5 @@ If you'd like to support the development of this and other projects, you can use
 
 [SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/Release?label=Build&logo=github&logoColor=fff&style=flat-square
 [SVG-Discord]: https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=fff&style=flat-square
+[SVG-Sponsor]: https://img.shields.io/badge/Sponsor-555?logo=github&logoColor=fff&style=flat-square
+[SVG-PayPal]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/paypal.json
