@@ -37,13 +37,13 @@ local CreateFrame, BackdropTemplateMixin = CreateFrame, BackdropTemplateMixin
 ---
 
 local L = {
-	["Click to select this text."] = "Click to select this text."
+	["Click to select this text."] = "Click to select this text.",
 	["Copy"] = "Copy",
 	["CTRL+C"] = "CTRL+C",
 	["ESC"] = "ESC",
 	["Press %s to cancel."] = "Press %s to cancel.",
 	["Press %s to copy."] = "Press %s to copy.",
-	["Select"] = "Select",
+	["Select"] = "Select"
 }
 
 local Locale = GetLocale()
