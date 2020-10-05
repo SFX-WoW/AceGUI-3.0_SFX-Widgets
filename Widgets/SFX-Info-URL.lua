@@ -37,25 +37,33 @@ local CreateFrame, BackdropTemplateMixin = CreateFrame, BackdropTemplateMixin
 ---
 
 local L = {
-	["Copy"] = "Copy",
-	["Select"] = "Select",
-	["CTRL+C"] = "CTRL+C",
-	["Escape"] = "Escape",
-	["Press %s to copy."] = "Press %s to copy.",
-	["Press %s to cancel."] = "Press %s to cancel.",
 	["Click to select this text."] = "Click to select this text."
+	["Copy"] = "Copy",
+	["CTRL+C"] = "CTRL+C",
+	["ESC"] = "ESC",
+	["Press %s to cancel."] = "Press %s to cancel.",
+	["Press %s to copy."] = "Press %s to copy.",
+	["Select"] = "Select",
 }
 
 local Locale = GetLocale()
+
 --if Locale == "deDE" then
 --elseif Locale == "esMX" or Locale == "esES" then
 --elseif Locale == "frFR" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
 --elseif Locale == "ptBR" then
---elseif Locale == "ruRU" then
+if Locale == "ruRU" then
+	L["Click to select this text."] = "Щелкните, чтобы выделить этот текст."
+	L["Copy"] = "Копировать"
+	L["CTRL+C"] = "CTRL+C"
+	L["ESC"] = "ESC"
+	L["Press %s to cancel."] = "Нажмите %s для отмены"
+	L["Press %s to copy."] = "Нажмите %s для копирования."
+	L["Select"] = "Выбор"
 --elseif Locale == "zhCN" then
-if Locale == "zhTW" then
+elseif Locale == "zhTW" then
 	L["Click to select this text."] = "點擊來選擇此文字。"
 	L["Copy"] = "複製"
 	L["CTRL+C"] = "CTRL+C"
