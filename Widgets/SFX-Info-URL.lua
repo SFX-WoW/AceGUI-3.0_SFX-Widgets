@@ -78,7 +78,7 @@ end
 ---
 
 local KEY_COPY = "|cffffcc00"..L["CTRL+C"].."|r"
-local KEY_EXIT = "|cffffcc00"..L["Escape"].."|r"
+local KEY_EXIT = "|cffffcc00"..L["ESC"].."|r"
 local TXT_COPY = (L["Press %s to copy."]):format(KEY_COPY)
 local TXT_EXIT = (L["Press %s to cancel."]):format(KEY_EXIT)
 
