@@ -2,6 +2,21 @@
 [![Discord][SVG-Discord]][Discord]
 [![Sponsor][SVG-Sponsor]][Sponsor]
 [![PayPal][SVG-PayPal]][PayPal]
+[![Patreon][SVG-Patreon]][Patreon]
+
+<details>
+<summary><strong>Contents</strong></summary><p>
+
+- [About](#About "Go to About")
+- [Features](#Features "Go to Features")
+- [Requirements](#Requirements "Go to Requirements")
+- [Installation](#Installation "Go to Installation")
+- [Credits](#Credits "Go to Credits")
+- [Feedback](#Feedback "Go to Feedback")
+- [Localization](#Localization "Go to Localization")
+- [Links](#Links "Go to Links")
+
+</p></details>
 
 ## [About][Top]
 
@@ -51,6 +66,7 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 [Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
 [Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 [PayPal]: https://www.paypal.me/stormfxi (Donate via PayPal)
+[Patreon]: https://www.patreon.com/stormfx (Become a Patron)
 
 [Top]: #Top (Top of the Page)
 
@@ -72,3 +88,4 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 [SVG-Discord]: https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=fff&style=flat-square
 [SVG-Sponsor]: https://img.shields.io/badge/Sponsor-555?logo=github&logoColor=fff&style=flat-square
 [SVG-PayPal]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/paypal.json
+[SVG-Patreon]: https://img.shields.io/badge/Patreon-f96854?logo=patreon&logoColor=fff&style=flat-square
