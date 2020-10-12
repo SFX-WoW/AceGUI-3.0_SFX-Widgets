@@ -1,4 +1,3 @@
-## 1.0.3
+## 1.0.4
 
-- Fixed the dependencies.
-- Updated ruRU. (Doomstep_)
+- Updated the `Interface` version for _Retail_ to `90001`.
