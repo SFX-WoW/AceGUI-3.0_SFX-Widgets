@@ -51,10 +51,17 @@ local Locale = GetLocale()
 --if Locale == "deDE" then
 --elseif Locale == "esMX" or Locale == "esES" then
 --elseif Locale == "frFR" then
---elseif Locale == "itIT" then
+if Locale == "itIT" then
+	L["Click to select this text."] = "Clicca per selezionare questo testo."
+	L["Copy"] = "Copia"
+	L["CTRL+C"] = "CTRL+C"
+	L["ESC"] = "ESC"
+	L["Press %s to cancel."] = "Premi %s per cancellare."
+	L["Press %s to copy."] = "Premi %s per copiare."
+	L["Select"] = "Seleziona"
 --elseif Locale == "koKR" then
 --elseif Locale == "ptBR" then
-if Locale == "ruRU" then
+elseif Locale == "ruRU" then
 	L["Click to select this text."] = "Щелкните, чтобы выделить этот текст."
 	L["Copy"] = "Копировать"
 	L["CTRL+C"] = "CTRL+C"
