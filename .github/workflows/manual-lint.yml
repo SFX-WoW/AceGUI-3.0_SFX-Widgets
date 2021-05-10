@@ -10,7 +10,7 @@ jobs:
       - name: Clone Project
         uses: actions/checkout@v1
 
-      - name: Install Luacheck
+      - name: Install LuaCheck
         run: |
           sudo apt-get install luarocks
           luarocks install --local luacheck
