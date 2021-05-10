@@ -6,13 +6,14 @@ on:
 
 jobs:
   package:
-    name: Package Releases
+    name: Package Pre-Releases
     runs-on: ubuntu-latest
 
     env:
       CF_API_KEY: ${{ secrets.CF_API_KEY }}
-      WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+      WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+      WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
 
     steps:
       - name: Clone Project
@@ -23,13 +24,13 @@ jobs:
           sudo apt-get install luarocks pandoc
           luarocks install --local luacheck
 
-      - name: Run Luacheck
+      - name: Run LuaCheck
         run: /home/runner/.luarocks/bin/luacheck . -q
+
+      - name: Package Release for Retail
+        uses: BigWigsMods/packager@master
 
       - name: Package Release for Classic
         uses: BigWigsMods/packager@master
         with:
-          args: -g 1.13.5
-
-      - name: Package Release for Retail
-        uses: BigWigsMods/packager@master
+          args: -g classic

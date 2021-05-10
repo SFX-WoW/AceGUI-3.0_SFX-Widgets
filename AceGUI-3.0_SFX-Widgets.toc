@@ -19,6 +19,7 @@
 ## X-Website: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets
 ## X-Credits: The Ace3 Team
 ## X-Curse-Project-ID: 340803
+## X-Wago-ID: RaN0zvKj
 ## X-WoWI-ID: 25658
 
 LibStub\LibStub.lua
