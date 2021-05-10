@@ -1,11 +1,8 @@
-#@retail@
 ## Interface: 90005
-#@end-retail@
-#@non-retail@
-# ## Interface: 11306
-#@end-non-retail@
-## Title: AceGUI-3.0: SFX Widgets
+## Interface-BC: 20501
+## Interface-Classic: 11307
 
+## Title: AceGUI-3.0: SFX Widgets
 ## Notes: Adds custom widgets to AceGUI-3.0 and AceConfigDialog-3.0.
 ## Notes-itIT: Aggiungi widgets personalizzati ad AceGUI-3.0 e AceConfigDialog-3.0.
 ## Notes-ruRU: Добавляет настраиваемые виджеты для AceGUI-3.0 и AceConfigDialog-3.0.
