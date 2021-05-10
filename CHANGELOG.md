@@ -1,4 +1,5 @@
-## 1.0.6
+## 1.0.7
 
-- Updated the `Interface` version for _Classic_ to `11306`.
-- Updated the `Interface` version for _Retail_ to `90005`.
+- Added support for _Burning Crusade Classic_.
+- Added tentative support for Wago.io.
+- Updated the `Interface` version for _Classic_ to `11307`.
