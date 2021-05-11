@@ -19,13 +19,11 @@ jobs:
       - name: Clone Project
         uses: actions/checkout@v1
 
-      - name: Install Dependencies
+      - name: Install & Run LuaCheck
         run: |
-          sudo apt-get install luarocks pandoc
+          sudo apt-get install luarocks
           luarocks install --local luacheck
-
-      - name: Run LuaCheck
-        run: /home/runner/.luarocks/bin/luacheck . -q
+          /home/runner/.luarocks/bin/luacheck . -q
 
       - name: Package Release for Retail
         uses: BigWigsMods/packager@master
