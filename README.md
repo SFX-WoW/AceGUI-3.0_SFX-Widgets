@@ -72,7 +72,7 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 
 [GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (View on GitHub)
 [CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (View on CurseForge)
-[Wago.io]: #Links (In Progress)
+[Wago.io]: https://addons.wago.io/addons/acegui-30-sfx-widgets (View on Wago.io)
 [WoW Ace]: https://www.wowace.com/projects/sfx-widgets (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info25658 (View on WoW Interface)
 
