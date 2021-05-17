@@ -1,5 +1,5 @@
-## 1.0.7
+## 1.0.8
 
-- Added support for _Burning Crusade Classic_.
-- Added tentative support for Wago.io.
-- Updated the `Interface` version for _Classic_ to `11307`.
+> _**Important:** This release is a unified package that is compatible with all game types. If it is not listed in your add-on manager, you will have to install it manually until the application is updated to support multi-version packages._
+
+- Added multi-version support that allows a single package to be compatible with multiple game types.
