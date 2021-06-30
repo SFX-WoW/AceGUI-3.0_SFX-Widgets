@@ -7,7 +7,7 @@ on:
 
 jobs:
   package:
-    name: Package Release
+    name: Package Releases
     runs-on: ubuntu-latest
 
     env:
@@ -26,5 +26,15 @@ jobs:
           luarocks install --local luacheck
           /home/runner/.luarocks/bin/luacheck . -q
 
-      - name: Build Package(s)
+      - name: Package Release for Retail
         uses: BigWigsMods/packager@master
+
+      - name: Package Release for Classic
+        uses: BigWigsMods/packager@master
+        with:
+          args: -g classic
+
+      - name: Package Release for BC Classic
+        uses: BigWigsMods/packager@master
+        with:
+          args: -g bcc
