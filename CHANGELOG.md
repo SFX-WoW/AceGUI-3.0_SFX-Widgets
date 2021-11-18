@@ -1,4 +1,5 @@
-## 1.1.1
+## 1.1.2
 
-- Updated the `Interface` version for _Classic_ to `11400`.
-- Updated the `Interface` version for _BCC_ to `20502`.
+- Initial support for a unified package.
+- Updated the `Interface` version for _Classic_ to `11401`.
+- Updated the `Interface` version for _Retail_ to `90105`.
