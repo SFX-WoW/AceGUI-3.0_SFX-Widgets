@@ -1,6 +1,4 @@
 ## Interface: 90100
-## Interface-BCC: 20502
-## Interface-Classic: 11400
 
 ## Title: AceGUI-3.0: SFX Widgets
 ## Notes: Adds custom widgets to AceGUI-3.0 and AceConfigDialog-3.0.
