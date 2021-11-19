@@ -1,5 +1,5 @@
 ## 1.1.2
 
-- Initial support for a unified package.
+- Switched to a unified package.
 - Updated the `Interface` version for _Classic_ to `11401`.
 - Updated the `Interface` version for _Retail_ to `90105`.
