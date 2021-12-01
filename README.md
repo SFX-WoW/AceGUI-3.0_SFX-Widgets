@@ -6,7 +6,7 @@
 
 ## [About][Top]
 
-**AceGUI-3.0: SFX Widgets** is an library add-on for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
+**AceGUI-3.0: SFX Widgets** is a library add-on for [World of Warcraft] that adds custom UI elements (widgets) to [AceGUI-3.0][Ace3] and [AceConfigDialog-3.0][Ace3].
 
 ## [Features][Top]
 
