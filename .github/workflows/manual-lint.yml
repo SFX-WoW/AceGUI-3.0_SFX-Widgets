@@ -1,4 +1,5 @@
 # Calls a linting workflow when triggered.
+
 name: Manual Lint
 
 on: workflow_dispatch
