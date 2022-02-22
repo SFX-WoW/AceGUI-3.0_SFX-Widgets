@@ -1,5 +1,5 @@
-## 1.1.2
+## 1.1.3
 
-- Switched to a unified package.
-- Updated the `Interface` version for _Classic_ to `11401`.
-- Updated the `Interface` version for _Retail_ to `90105`.
+- Updated the `Interface` version for _Retail_ to `90200`.
+- Updated the `Interface` version for _Classic_ to `11403`.
+- Updated the `Interface` version for _TBC Classic_ to `20503`.
