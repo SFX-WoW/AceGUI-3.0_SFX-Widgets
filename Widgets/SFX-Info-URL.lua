@@ -8,7 +8,7 @@
 
 ]]
 
--- GLOBALS: BackdropTemplateMixin, CreateFrame, GameTooltip, GetLocale, LibStub, UIParent
+-- GLOBALS: CreateFrame, GameTooltip, GetLocale, LibStub, UIParent
 
 ----------------------------------------
 -- Locals
@@ -30,7 +30,7 @@ local max = math.max
 -- WoW API
 ---
 
-local CreateFrame, BackdropTemplateMixin = CreateFrame, BackdropTemplateMixin
+local CreateFrame = CreateFrame
 
 ----------------------------------------
 -- Locales
@@ -227,7 +227,7 @@ do
 		else
 			-- Set up the EditBox.
 			if not EditBox then
-				EditBox = CreateFrame("EditBox", "AceGUI-3.0_SFX-InfoRow_EditBox", self.frame, BackdropTemplateMixin and "BackdropTemplate")
+				EditBox = CreateFrame("EditBox", "AceGUI-3.0_SFX-InfoRow_EditBox", self.frame, "BackdropTemplate")
 				EditBox:SetAutoFocus(true)
 				EditBox:SetFontObject("GameFontHighlight")
 				EditBox:SetJustifyH("LEFT")
