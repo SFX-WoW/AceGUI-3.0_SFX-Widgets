@@ -8,7 +8,7 @@
 
 ]]
 
--- GLOBALS: GameTooltip, GetLocale, LibStub
+-- GLOBALS: GetLocale, LibStub
 
 ----------------------------------------
 -- Locals
@@ -90,6 +90,12 @@ local TXT_COPY = (L["Press %s to copy."]):format(KEY_COPY)
 local TXT_EXIT = (L["Press %s to cancel."]):format(KEY_EXIT)
 
 ----------------------------------------
+-- Tooltip
+---
+
+local Tooltip = CreateFrame("GameTooltip", "SFX-Widgets-Tooltip", UIParent, "GameTooltipTemplate")
+
+----------------------------------------
 -- EditBox
 ---
 
@@ -97,16 +103,16 @@ local EditBox
 
 -- EditBox:OnEnter()
 local function EditBox_OnEnter(self)
-	GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
-	GameTooltip:SetText(L["Copy"])
-	GameTooltip:AddLine(TXT_COPY, 1, 1, 1)
-	GameTooltip:AddLine(TXT_EXIT, 1, 1, 1)
-	GameTooltip:Show()
+	Tooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
+	Tooltip:SetText(L["Copy"])
+	Tooltip:AddLine(TXT_COPY, 1, 1, 1)
+	Tooltip:AddLine(TXT_EXIT, 1, 1, 1)
+	Tooltip:Show()
 end
 
 -- EditBox:OnLeave()
 local function EditBox_OnLeave(self)
-	GameTooltip:Hide()
+	Tooltip:Hide()
 end
 
 -- EditBox:OnFocusGained()
@@ -142,15 +148,15 @@ local Buttons = {}
 
 -- Button:OnEnter()
 local function Button_OnEnter(self)
-	GameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
-	GameTooltip:SetText(L["Select"])
-	GameTooltip:AddLine(L["Click to select this text."], 1, 1, 1)
-	GameTooltip:Show()
+	Tooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
+	Tooltip:SetText(L["Select"])
+	Tooltip:AddLine(L["Click to select this text."], 1, 1, 1)
+	Tooltip:Show()
 end
 
 -- Button:OnLeave()
 local function Button_OnLeave(self)
-	GameTooltip:Hide()
+	Tooltip:Hide()
 end
 
 -- Button:OnClick()
