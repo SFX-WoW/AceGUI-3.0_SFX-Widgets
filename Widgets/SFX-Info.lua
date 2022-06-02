@@ -46,6 +46,23 @@ local function Frame_OnLeave(self)
 	self.obj:Fire("OnLeave")
 end
 
+-- Height Update
+local function UpdateHeight(self)
+	if self.resizing then return end
+
+	self.resizing = true
+
+	local Frame, Info = self.frame, self.Info
+	local Width = (Frame.width or Frame:GetWidth() or 0) - 83
+
+	Width = (Width > 0 and Width) or 0
+
+	Info:SetWidth(Width)
+	Frame:SetHeight(Info:GetStringHeight())
+
+	self.resizing = nil
+end
+
 ----------------------------------------
 -- Widget Methods
 ---
@@ -56,11 +73,22 @@ local Methods = {
 	-- Fires when the widget is initialized.
 	OnAcquire = function(self)
 		-- Reset the widget.
+		self.resizing = true
+
 		self:SetDisabled(true)
 		self:SetLabel()
 		self:SetColon()
 		self:SetText()
 		self:SetFullWidth(true)
+
+		self.resizing = nil
+		UpdateHeight(self)
+	end,
+
+	-- Widget:OnAcquire()
+	-- Fires when the widget's width is changed.
+	OnWidthSet = function(self)
+		UpdateHeight(self)
 	end,
 
 	-- Widget:SetDisabled()
@@ -106,17 +134,13 @@ local Methods = {
 	SetText = function(self, Text)
 		Text = Text or ""
 
-		local Info = self.Info
-		Info:SetText(Text)
-
-		local Height = max(self.Label:GetStringHeight(), Info:GetStringHeight())
-		self:SetHeight(Height)
+		self.Info:SetText(Text)
+		UpdateHeight(self)
 	end,
 
 	-- Unused Methods
 	-- OnRelease = nil,
 	-- OnHeightSet = nil,
-	-- OnWidthSet = nil,
 }
 
 ----------------------------------------
@@ -146,7 +170,6 @@ local function Constructor()
 	-- Info: Right Text
 	local Info = Frame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 	Info:SetPoint("TOPLEFT", Colon, "TOPRIGHT")
-	Info:SetPoint("BOTTOMRIGHT", Frame, "BOTTOMRIGHT")
 	Info:SetJustifyH("LEFT")
 	Info:SetJustifyV("TOP")
 
