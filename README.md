@@ -12,6 +12,8 @@
 
 This library adds the following widgets.
 
+- [SFX-Header](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Header "View Wiki Page") - A left-aligned header with a border that is centered vertically.
+- [SFX-Header-II](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Header-II "View Wiki Page") - A left-aligned header with a border below the text.
 - [SFX-Info](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Info "View Wiki Page") - A two-column row with a label on the left and text on the right.
 - [SFX-Info-URL](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Info-URL "View Wiki Page") - A two-column row with a label on the left and selectable text on the right.
 
