@@ -10,7 +10,7 @@
 
 ## [Features][Top]
 
-This library adds the following widgets.
+This library adds the following widgets:
 
 - [SFX-Header](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Header "View Wiki Page") - A left-aligned header with a border that is centered vertically.
 - [SFX-Header-II](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/SFX-Header-II "View Wiki Page") - A left-aligned header with a border below the text.
@@ -21,7 +21,7 @@ This library adds the following widgets.
 
 This add-on requires third-party libraries.
 
-- [LibStub](https://www.wowace.com/projects/libstub "LibStub Homepage") (_Included_)
+- [LibStub](https://www.curseforge.com/wow/addons/libstub "LibStub @ CurseForge") (_Included_)
 - [Ace-3.0][Ace3]
   - [AceConfigDialog-3.0][Ace3] (_Optional_)
   - [AceGUI-3.0][Ace3]
@@ -40,7 +40,7 @@ For bug reports and suggestions, use the [issue tracker]. Direct any questions o
 
 ## [Localization][Top]
 
-To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
+To help translate this add-on, use the [localization system] on CurseForge. Alternatively, you can use the [issue tracker].
 
 ## [Links][Top]
 
@@ -51,7 +51,6 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
   - [GitHub]
   - [CurseForge]
   - [Wago.io]
-  - [WoW Ace]
   - [WoW Interface]
 
 [Links]: #
@@ -64,18 +63,17 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 
 [Top]: #Top (Top of the Page)
 
-[Ace3]: https://www.wowace.com/projects/ace3 (Ace-3.0 Project Page)
+[Ace3]: https://www.curseforge.com/wow/addons/ace3 (Ace-3.0 @ CurseForge)
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
 [Issue Tracker]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/issues (Report an Issue)
-[Localization System]: https://www.wowace.com/projects/sfx-widgets/localization (Translate on WoW Ace)
+[Localization System]: https://www.curseforge.com/wow/addons/sfx-widgets/localization (Translate on CurseForge)
 [Wiki]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki (View the Wiki)
 [Screenshots]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/Screenshots (View the Screenshots)
 
 [GitHub]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets (View on GitHub)
 [CurseForge]: https://www.curseforge.com/wow/addons/sfx-widgets (View on CurseForge)
 [Wago.io]: https://addons.wago.io/addons/acegui-30-sfx-widgets (View on Wago.io)
-[WoW Ace]: https://www.wowace.com/projects/sfx-widgets (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info25658 (View on WoW Interface)
 
 [Images]: #
