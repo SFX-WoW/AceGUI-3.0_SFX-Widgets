@@ -1,3 +1,4 @@
+<a id="Top"></a>
 [![Build][SVG-Build]][Build]
 [![Discord][SVG-Discord]][Discord]
 [![Twitter][SVG-Twitter]][Twitter]
@@ -53,7 +54,7 @@ To help translate this add-on, use the [localization system] on CurseForge. Alte
   - [Wago.io]
   - [WoW Interface]
 
-[Links]: #
+[//]: # (Links)
 
 [Build]: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/actions/workflows/build-release.yml (Build Status)
 [Discord]: https://discord.gg/DDVqkd6 (Join the Discord)
@@ -76,7 +77,7 @@ To help translate this add-on, use the [localization system] on CurseForge. Alte
 [Wago.io]: https://addons.wago.io/addons/acegui-30-sfx-widgets (View on Wago.io)
 [WoW Interface]: https://www.wowinterface.com/downloads/info25658 (View on WoW Interface)
 
-[Images]: #
+[//]: # (Images)
 
 [SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/Build%20Release?label=Build&logo=github&logoColor=fff&style=flat-square
 [SVG-Discord]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/discord.json
