@@ -1,8 +1,7 @@
-## 1.2.4
+## 1.2.5
 
 ### Release Notes
 
-- Removed the _TBC Classic_ ToC file.
-- Updated the `Interface` version for _Retail_ to `100000`.
+- Updated the `Interface` version for _Retail_ to `100002`.
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
