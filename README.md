@@ -4,6 +4,7 @@
 [![Twitter][SVG-Twitter]][Twitter]
 [![Sponsor][SVG-Sponsor]][Sponsor]
 [![PayPal][SVG-PayPal]][PayPal]
+[![Ko-fi][SVG-Kofi]][Kofi]
 
 ## [About][Top]
 
@@ -61,6 +62,7 @@ To help translate this add-on, use the [localization system] on CurseForge. Alte
 [Twitter]: https://twitter.com/stormfxi (Follow on Twitter)
 [Sponsor]: https://github.com/sponsors/StormFX (Sponsor on GitHub)
 [PayPal]: https://www.paypal.com/donate/?hosted_button_id=EELAK9TC4W4KQ (Donate via PayPal)
+[Kofi]: https://ko-fi.com/StormFX (Donate via Ko-fi)
 
 [Top]: #Top (Top of the Page)
 
@@ -79,8 +81,9 @@ To help translate this add-on, use the [localization system] on CurseForge. Alte
 
 [//]: # (Images)
 
-[SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/Build%20Release?label=Build&logo=github&logoColor=fff&style=flat-square
+[SVG-Build]: https://img.shields.io/github/actions/workflow/status/SFX-WoW/AceGUI-3.0_SFX-Widgets/build-release.yml?label=Build&logo=github&logoColor=fff&style=flat-square
 [SVG-Discord]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/discord.json
 [SVG-Twitter]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/twitter.json
 [SVG-Sponsor]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/github-sponsor.json
 [SVG-PayPal]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/paypal.json
+[SVG-Kofi]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/kofi.json
