@@ -23,9 +23,9 @@ This library adds the following widgets:
 
 This add-on requires third-party libraries.
 
-- [LibStub](https://www.curseforge.com/wow/addons/libstub "LibStub @ CurseForge") (_Included_)
+- [LibStub](https://www.curseforge.com/wow/addons/libstub "LibStub @ CurseForge") (Included)
 - [Ace-3.0][Ace3]
-  - [AceConfigDialog-3.0][Ace3] (_Optional_)
+  - [AceConfigDialog-3.0][Ace3] (Optional)
   - [AceGUI-3.0][Ace3]
 
 ## [Installation][Top]
