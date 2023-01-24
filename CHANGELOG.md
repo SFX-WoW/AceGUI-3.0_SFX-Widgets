@@ -2,6 +2,7 @@
 
 ### Release Notes
 
+- Minor code clean-up.
 - Updated the `Interface` version for **Retail** to `100005`.
 - Updated the `Interface` version for **Wrath Classic** to `30401`.
 
