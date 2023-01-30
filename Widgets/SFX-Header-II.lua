@@ -102,7 +102,10 @@ local Methods = {
 		Label:SetText(Text)
 
 		if Text == "" then
-			self.Border:ClearPointByName("TOP")
+			local Border = self.Border
+			local ClearPoint = Border.ClearPoint or Border.ClearPointByName
+
+			ClearPoint(Border, "TOP")
 		else
 			self.Border:SetPoint("TOP", Label, "BOTTOM", 0, 2)
 		end
