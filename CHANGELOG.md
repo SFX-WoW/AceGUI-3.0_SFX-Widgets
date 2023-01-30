@@ -1,9 +1,7 @@
-## 1.2.6
+## 1.2.7
 
 ### Release Notes
 
-- Minor code clean-up.
-- Updated the `Interface` version for **Retail** to `100005`.
-- Updated the `Interface` version for **Wrath Classic** to `30401`.
+- Addressed the renaming of `SetPointByName`to `SetPoint` in **Retail** and **Wrath Classic**.
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
