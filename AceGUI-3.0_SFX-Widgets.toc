@@ -1,9 +1,11 @@
 ## Interface: 100007
 
 ## Author: StormFX
-## OptionalDeps: Ace3
 ## Title: AceGUI-3.0: SFX Widgets
 ## Version: @project-version@
+
+## OptionalDeps: Ace3
+## IconTexture: Interface\AddOns\AceGUI-3.0_SFX-Widgets\Textures\Icon
 
 ## Notes: Adds custom widgets to AceGUI-3.0 and AceConfigDialog-3.0.
 ## Notes-itIT: Aggiungi widgets personalizzati ad AceGUI-3.0 e AceConfigDialog-3.0.
