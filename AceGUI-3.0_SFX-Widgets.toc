@@ -1,4 +1,4 @@
-## Interface: 100007
+## Interface: 100100
 
 ## Author: StormFX
 ## Title: AceGUI-3.0: SFX Widgets
