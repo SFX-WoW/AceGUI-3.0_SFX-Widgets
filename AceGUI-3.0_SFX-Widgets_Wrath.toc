@@ -4,8 +4,8 @@
 ## Title: AceGUI-3.0: SFX Widgets
 ## Version: @project-version@
 
-## OptionalDeps: Ace3
 ## IconTexture: Interface\AddOns\AceGUI-3.0_SFX-Widgets\Textures\Icon
+## OptionalDeps: Ace3
 
 ## Notes: Adds custom widgets to AceGUI-3.0 and AceConfigDialog-3.0.
 ## Notes-itIT: Aggiungi widgets personalizzati ad AceGUI-3.0 e AceConfigDialog-3.0.
@@ -15,10 +15,12 @@
 
 ## X-Category: Library
 ## X-Credits: The Ace3 Team
+## X-Discord: https://discord.gg/7MTWRgDzz8
+## X-Website: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets
+
 ## X-Curse-Project-ID: 340803
 ## X-Wago-ID: RaN0zvKj
 ## X-WoWI-ID: 25658
-## X-Website: https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets
 
 LibStub\LibStub.lua
 AceGUI-3.0_SFX-Widgets.xml
