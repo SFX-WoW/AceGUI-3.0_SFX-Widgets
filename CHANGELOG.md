@@ -1,10 +1,8 @@
-## 1.2.9
+## 1.3.0
 
 ### Release Notes
 
-- Added an `IconTexture` for the **AddOns** menu. (#62)
-- Added the `X-Discord` ToC entry.
-- Updated `koKR`. (HanaKiki)(#61)
-- Updated the `Interface` version for **Retail** to `100100`. (#63)
+- Updated the `Interface` version for **Retail** to `100105`. (#66)
+- Updated the `Interface` version for **Wrath Classic** to `30402`. (#65)
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
