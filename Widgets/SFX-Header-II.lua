@@ -99,11 +99,11 @@ local Methods = {
 
 		self.Text = Title
 
-		if Text == "" then
-			local Border = self.Border
-			local ClearPoint = Border.ClearPoint or Border.ClearPointByName
+		local Label = self.Label
+		Label:SetText(Title)
 
-			ClearPoint(Border, "TOP")
+		if Title == "" then
+			self.Border:ClearPoint("TOP")
 		else
 			self.Border:SetPoint("TOP", Label, "BOTTOM", 0, 2)
 		end
