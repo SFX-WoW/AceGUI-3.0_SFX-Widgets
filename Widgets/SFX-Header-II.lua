@@ -95,11 +95,9 @@ local Methods = {
 	-- Widget:SetText()
 	-- Sets the header text.
 	SetText = function(self, Text)
-		local Text, Count = gsub(Text or "", ">>>", "")
-		self.Text = Text
+		local Title, Count = gsub(Text or "", ">>>", "")
 
-		local Label = self.Label
-		Label:SetText(Text)
+		self.Text = Title
 
 		if Text == "" then
 			local Border = self.Border
