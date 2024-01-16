@@ -1,8 +1,7 @@
-## 1.3.3
+## 1.3.4
 
 ### Release Notes
 
-- Removed the `ClearPointByName` compatibility code and replaced it with `ClearPoint`. (#71)
-- Updated the `Interface` version for **Classic Era** to `11500`. (#72)
+- Updated the `Interface` version for **Retail** to `100205`. (#73)
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
