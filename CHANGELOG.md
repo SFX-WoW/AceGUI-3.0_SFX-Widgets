@@ -1,9 +1,9 @@
-## 1.3.11
+## 1.3.12
 
 ### Release Notes
 
-- Added support for **The War Within** `11.0.5`. (#84)
-- Added support for **Cataclysm Classic** `4.4.1`.. (#84)
-- Updated the `Interface` version for **Classic Era** to `11504`. (#84)
+- Updated the `Interface` version for **The War Within** to `110100`. (#85)
+- Updated the `Interface` version for **Cataclysm Classic** to `40402`. (#85)
+- Updated the `Interface` version for **Classic Era** to `11506`. (#85)
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
