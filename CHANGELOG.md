@@ -1,8 +1,7 @@
-## 1.3.15
+## 1.3.16
 
 ### Release Notes
 
-- Added support for **The War Within: Ghosts of K'aresh**. (#88)
-- Removed support for **Cataclysm Classic**. (#88)
+- Updated the `Interface` version for **Wrath of the Lich King Classic** (China) to `30405`.
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
