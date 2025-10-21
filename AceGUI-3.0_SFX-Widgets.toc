@@ -4,6 +4,18 @@
 ## Title: AceGUI-3.0: SFX Widgets
 ## Version: @project-version@
 
+## Category: Libraries
+## Category-deDE: Bibliotheken
+## Category-esES: Bibliotecas
+## Category-esMX: Bibliotecas
+## Category-frFR: Bibliothèques
+## Category-itIT: Librerie
+## Category-koKR: 라이브러리
+## Category-ptBR: Bibliotecas
+## Category-ruRU: Библиотеки
+## Category-zhCN: 函数库
+## Category-zhTW: 函式庫
+
 ## IconTexture: Interface\AddOns\AceGUI-3.0_SFX-Widgets\Textures\Icon
 ## OptionalDeps: Ace3
 
