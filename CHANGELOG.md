@@ -1,8 +1,9 @@
-## 1.3.25
+## 1.3.26
 
 ### Release Notes
 
+- Enabled automated localization.
 - Updated the `Interface` versions:
-  - **Midnight**: `120100`
+  - **Forever**: `16001`
 
 [Release History](https://github.com/SFX-WoW/AceGUI-3.0_SFX-Widgets/wiki/History)
